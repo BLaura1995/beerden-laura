@@ -1,3 +1,76 @@
-body{
-    background:green;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    background:black;
+   
+}
+.nav-header{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    
+   
+}
+.logo{
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+    color:white;
+}
+.nav-header li{
+    display:flex;
+    padding: 15px;
+}
+.nav-header li a{
+    display:flex;
+    padding-left: 15px;
+    padding-right:15px;
+    text-decoration: none;
+    color:white;
+}
+.nav-header li a:hover{
+    display:flex;
+margin: 15px;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    width:100%;
+    height:100%;
+}
+.hero{
+    overflow:hidden;
+}
+.overlay{
+
+    background-size: 100% 100%;
+    height:80vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center center;
+
+}
+.section-banner{
+    background-color: grey;
+ margin-top: -5px;
+    height:400px;
+}
+.welcom{
+    width:80%;
+    margin: 0 auto;
+    padding-top:50px;
+   
+    text-align: center;
+    font-size: 1.5rem;
+    color:white;
+}
+.welcom-text{
+    width:40%;
+    margin: 100px auto;
+    font-size: 1rem;
 }
